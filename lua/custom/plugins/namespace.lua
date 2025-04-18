@@ -1,11 +1,11 @@
 return { -- lazy
     'ccaglak/namespace.nvim',
-    keys = {
-        { "<leader>la", "<cmd>Php classes<cr>" },
-        { "<leader>lc", "<cmd>Php class<cr>" },
-        { "<leader>ln", "<cmd>Php namespace<cr>" },
-        { "<leader>ls", "<cmd>Php sort<cr>" },
-    },
+    -- keys = {
+    --     { "<leader>la", "<cmd>Php classes<cr>", },
+    --     { "<leader>lc", "<cmd>Php class<cr>" },
+    --     { "<leader>ln", "<cmd>Php namespace<cr>" },
+    --     { "<leader>ls", "<cmd>Php sort<cr>" },
+    -- },
     dependencies = {
         "ccaglak/phptools.nvim", -- optional
         "ccaglak/larago.nvim",   -- optional
